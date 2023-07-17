@@ -11,8 +11,6 @@ with st.sidebar.expander("📬 Contact"):
 "[@ahmedkhaled4d](https://medium.com/@ahmedkhaled4d)")
 
     st.write("**Twitter:** [@ahmedkhaled4d](https://twitter.com/ahmedkhaled4d)")
-    st.write("**Created by ahmedkhaled4d**")
-
 
 #Title
 st.markdown(
@@ -27,7 +25,9 @@ st.markdown("---")
 #Description
 st.markdown(
     """ 
-    <h5 style='text-align:center;'>أنا Takweed GPT ، روبوت محادثة ذكي تم إنشاؤه من خلال الجمع بين نقاط القوة في Langchain و Streamlit. أستخدم نماذج لغة كبيرة لتوفير تفاعلات حساسة للسياق. هدفي هو مساعدتك على فهم بياناتك بشكل أفضل. أنا أدعم نسخ PDF و TXT و CSV و Youtube 🧠</h5>
+    <h5 style='text-align:center;'>
+    Takweed GPT 🤖  for chat with CSV, PDF, TXT files robot and YTB videos 🔴 | using Langchain 🐦 | OpenAI 🧠 | Streamlit 
+    </h5>
     """,
     unsafe_allow_html=True)
 st.markdown("---")

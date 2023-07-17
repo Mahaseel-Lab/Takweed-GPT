@@ -12,14 +12,14 @@ from langchain.llms import OpenAI
 import os
 from langchain.text_splitter import CharacterTextSplitter
 
-st.set_page_config(layout="wide", page_icon="💬", page_title="Takweed GPT | Chat-Bot 🤖")
+st.set_page_config(layout="wide", page_icon="💬", page_title="Takweed GPT | YTB 😁")
 
 # Instantiate the main components
 layout, sidebar, utils = Layout(), Sidebar(), Utilities()
 
 st.markdown(
     f"""
-    <h1 style='text-align: center;'> تلخيص ومراجعه فديوهات اليوتيوب  😁</h1>
+    <h1 style='text-align: center;'> Summarize A Youtube Video Using AI  </h1>
     """,
     unsafe_allow_html=True,
 )

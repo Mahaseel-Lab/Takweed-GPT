@@ -10,14 +10,14 @@ class Sidebar:
 
     @staticmethod
     def about():
-        about = st.sidebar.expander("🧠 About AI chatbot Development")
-        sections = [
+        about = st.sidebar.expander("🧠 About GPT Development")
+        stories = [
             "#### Takweed GPT is an AI chatbot with a conversational memory, designed to allow users to discuss their data in a more intuitive way. 📄",
             "#### Developed by [ahmed khaled](https://linkedin.com/in/ahmedkhaled4d),  ⚡",
             "#### Powered by [Langchain](https://github.com/hwchase17/langchain), [OpenAI](https://platform.openai.com/docs/models/gpt-3-5) and [Streamlit](https://github.com/streamlit/streamlit) ⚡",
         ]
-        for section in sections:
-            about.write(section)
+        for story in stories:
+            about.write(story)
 
     @staticmethod
     def reset_chat_button():
