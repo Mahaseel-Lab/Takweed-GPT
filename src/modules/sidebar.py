@@ -10,10 +10,9 @@ class Sidebar:
 
     @staticmethod
     def about():
-        about = st.sidebar.expander("🧠 About GPT Development")
+        about = st.sidebar.expander("Contributing")
         stories = [
-            "#### Takweed GPT is an AI chatbot with a conversational memory, designed to allow users to discuss their data in a more intuitive way. 📄",
-            "#### Developed by [ahmed khaled](https://linkedin.com/in/ahmedkhaled4d),  ⚡",
+            "#### If you want to contribute to this project, please open an issue, submit a pull request or contact me at [ahmed.khaled@mahaseel.net](ahmed.khaled@mahaseel.net) ",
             "#### Powered by [Langchain](https://github.com/hwchase17/langchain), [OpenAI](https://platform.openai.com/docs/models/gpt-3-5) and [Streamlit](https://github.com/streamlit/streamlit) ⚡",
         ]
         for story in stories:
