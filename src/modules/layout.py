@@ -8,7 +8,8 @@ class Layout:
         """
         st.markdown(
             f"""
-            <h1 style='text-align: center;'> مساعد تكويد يعمل بالذكاء الاصطناعي لمساعدتك في التعرف اكثر من خلال  ملفاتك    ! 😁</h1>
+            <h1 style='text-align: center;'> 
+                Takweed GPT 🤖  for chat with CSV, PDF, TXT files and YTB videos 🔴 | using Langchain 🐦 | OpenAI 🧠 | Streamlit </h1>
             """,
             unsafe_allow_html=True,
         )
