@@ -26,7 +26,7 @@ st.markdown("---")
 st.markdown(
     """ 
     <h5 style='text-align:center;'>
-    Takweed GPT 🤖  for chat with CSV, PDF, TXT files robot and YTB videos 🔴 | using Langchain 🐦 | OpenAI 🧠 | Streamlit 
+    Takweed GPT 🤖  for chat with CSV, PDF, TXT files and YTB videos 🔴 | using Langchain 🐦 | OpenAI 🧠 | Streamlit 
     </h5>
     """,
     unsafe_allow_html=True)
